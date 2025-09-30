@@ -28,7 +28,8 @@ st.set_page_config(
 st.title("Visão Entregadores")
 
 # Carregar CSV
-df = pd.read_csv(r'dataset\train.csv')
+df = pd.read_csv("dataset/train.csv")
+
 print(df.head())
 
 # --- Limpeza de dados ---
