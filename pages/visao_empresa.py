@@ -40,7 +40,8 @@ st.title("Visão Empresa")  # título principal da página
 # BASE_PATH = Path(r"C:\Users\marci\OneDrive\Documentos\Márcio\Cursos\Comunidade DS\Formação Cientista de dados\Z.Repos\FTC_python\dataset")
 # CSV_FILE = BASE_PATH / "train.csv"
 
-df = pd.read_csv(r"dataset\train.csv")
+df = pd.read_csv("dataset/train.csv")
+
 print(df.head())  # funciona no terminal / Jupyter
 
 
