@@ -8,3 +8,5 @@ streamlit-folium
 altair
 scipy
 pillow
+haversine==2.9.0
+
