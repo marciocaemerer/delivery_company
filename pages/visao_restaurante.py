@@ -28,7 +28,8 @@ st.title("Visão Restaurante")
 # ======================================
 # Carregar dados
 # ======================================
-df = pd.read_csv(r"dataset\train.csv")
+df = pd.read_csv("dataset/train.csv")
+
 
 def limpar_dados(df):
     tb = df.copy()
